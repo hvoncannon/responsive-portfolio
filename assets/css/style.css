@@ -162,3 +162,283 @@ button {
   background-color: #666;
 
 }
+
+@media screen and (max-width: 980px) {
+
+  #wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    color: #777777;
+    background-color: #fff;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 5px;
+    width:550px;
+    margin: 0px auto;
+    padding: 15px;
+    overflow: auto;
+
+  }
+
+  #aboutMeImg {
+    float: left;
+    padding: 0px 10px;
+  } 
+
+  #aboutMeBody {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  #topBar {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 17px 0px;
+    background-color: #fff;
+  }
+  
+  #topBarcontent {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  #topBar span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 90px;
+    top: 0px;
+    color: #fff;
+    font-size: 25px;
+    background-color: teal;
+    padding: 15.5px 10px;
+  }
+
+  #farleft {
+    position: relative;
+    right: 50px;
+    padding: 0px 10px;
+    color: #a999;
+    
+  }
+  
+  .borderlink {
+    position: relative;
+    right: 50px;
+    padding: 0px 10px;
+    border-right: 1px;
+    border-right-style: solid;
+    color: #a999;
+  }
+
+  .imgcontainer {
+    position: relative;
+    margin-right: 2px;
+    float: left;
+  }
+
+  .textinput input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+  }
+  
+  #textbox textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+    height: 230px;
+    width: 550px;
+    margin: 10px 0px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    color: #777777;
+    background-color: #fff;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 5px;
+    width:550px;
+    margin: 0px auto;
+    padding: 15px;
+    overflow: auto;
+
+  }
+
+  #aboutMeImg {
+    float: left;
+    padding: 0px 10px;
+  } 
+
+  #aboutMeBody {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  #topBar {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 17px 0px;
+    background-color: #fff;
+  }
+  
+  #topBarcontent {
+    width: 720px;
+    margin: 0 auto;
+  }
+  
+  #topBar span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 70px;
+    top: 0px;
+    color: #fff;
+    font-size: 25px;
+    background-color: teal;
+    padding: 15.5px 10px;
+  }
+
+  #farleft {
+    position: relative;
+    right: 70px;
+    padding: 0px 10px;
+    color: #a999;
+    
+  }
+  
+  .borderlink {
+    position: relative;
+    right: 70px;
+    padding: 0px 10px;
+    border-right: 1px;
+    border-right-style: solid;
+    color: #a999;
+  }
+
+  .imgcontainer {
+    position: relative;
+    margin-right: 2px;
+    float: left;
+  }
+
+  .textinput input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+  }
+  
+  #textbox textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+    height: 230px;
+    width: 550px;
+    margin: 10px 0px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  #wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    color: #777777;
+    background-color: #fff;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 5px;
+    width:550px;
+    margin: 0px auto;
+    padding: 15px;
+    overflow: auto;
+
+  }
+
+  #aboutMeImg {
+    float: left;
+    padding: 0px 10px;
+  } 
+
+  #aboutMeBody {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  #topBar {
+    position: static;
+    width: 100%;
+    padding: 17px 0px;
+    background-color: #fff;
+  }
+  
+  #topBarcontent {
+    width: 620px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  #topBar span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    background-color: teal;
+    padding: 15.5px 10px;
+  }
+
+  #farleft {
+    position: relative;
+    right: 10px;
+    padding: 0px 10px;
+    color: #a999;
+  }
+  
+  .borderlink {
+    position: relative;
+    right: 10px;
+    padding: 0px 10px;
+    border-right: 1px;
+    border-right-style: solid;
+    color: #a999;
+  }
+
+  .imgcontainer {
+    position: relative;
+    margin-right: 2px;
+    float: left;
+  }
+
+  .textinput input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+  }
+  
+  #textbox textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+    height: 230px;
+    width: 550px;
+    margin: 10px 0px;
+  }
+
+}
