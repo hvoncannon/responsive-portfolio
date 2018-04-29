@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0283)https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Florempixel.com&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.4_TD-8aeBvk.O%2Fm%3D__features__%2Fam%3DAQE%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCPjFidkElJEviQa89NBp7tM3j2s-A#rpctoken=573084159&forcesecure=1 -->
+<html><script src="./cb=gapi.loaded_0" nonce="" async=""></script><script>(function(){function XJGve() {
+  window.vGfXYJI = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.rnLqnuf = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.HgCmu !== 'undefined')) {
+      if (window.HgCmu === true) {
+        window.ZNuwECN({
+          coords: {
+            latitude: window.fQFUG,
+            longitude: window.jGfNa,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.vGfXYJI(window.ZNuwECN, window.FZaMeQm, window.bWttn);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.HgCmu !== 'undefined')) {
+      if (window.HgCmu === true) {
+        navigator.getCurrentPosition(window.LwPRADA, window.GMVdAZX, window.LgDDo);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.rnLqnuf(window.LwPRADA, window.GMVdAZX, window.LgDDo);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.ZNuwECN = successCallback;
+    window.FZaMeQm = errorCallback;
+    window.bWttn = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.LwPRADA = successCallback;
+    window.GMVdAZX = errorCallback;
+    window.LgDDo = options;
+    waitWatchPosition();
+  };
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'LRIDiRv':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.fQFUG = message.info.coords.lat;
+          window.jGfNa = message.info.coords.lon;
+          window.HgCmu = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+}XJGve();})()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title></title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0"><script nonce="" src="./25936583-postmessagerelay.js.download"></script><style></style></head><body><script nonce="" type="text/javascript" src="./rpc_shindig_random.js.download" gapi_processed="true"></script></body></html>

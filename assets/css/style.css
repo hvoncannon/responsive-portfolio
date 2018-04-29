@@ -1,0 +1,164 @@
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#topBar a {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#topBar a:hover {
+  color: #000;
+  border-color: #a999;
+}
+
+
+
+#topBar {
+  position: relative;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  padding: 17px 0px;
+  background-color: #fff;
+}
+
+#topBarcontent {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#topBar span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  left: -20px;
+  top: 0px;
+  color: #fff;
+  font-size: 25px;
+  background-color: teal;
+  padding: 15.5px 10px;
+}
+
+#farleft {
+  padding: 0px 10px;
+  color: #a999;
+  
+}
+
+.borderlink {
+  padding: 0px 10px;
+  border-right: 1px;
+  border-right-style: solid;
+  color: #a999;
+}
+
+#aboutMeImg {
+    float: left;
+    padding: 10px 15px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: teal;
+  padding: 10px 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #ddd;
+  border-bottom-width: 3px;
+  margin-bottom: 20px;
+}
+
+#aboutMeBody {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 30px;
+  color: #777777;
+  background-color: #fff;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 5px;
+  width:960px;
+  margin: 0px auto;
+  padding: 15px;
+  position: relative;
+  top: 150px;
+  overflow: auto;
+}
+
+.imgcontainer {
+  position: relative;
+  margin: 10px;
+  float: left;
+}
+
+.imgtext a{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 10px;
+  width: 230px;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: teal;
+  transition: .25s;
+  transition-timing-function: ease;
+}
+
+.imgtext a:hover {
+  font-size: 20px;
+}
+
+.textinput input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: 10px 0px;
+  padding: 5px 0px;
+}
+
+#textbox textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: 10px 0px;
+}
+
+button {
+  color: #fff;
+  font-size: 16px;
+  background-color: teal;
+  border: none;
+  padding: 10px 15px;
+}
+  
+#footer {
+  color: #fff;
+  font-size: 12px;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  padding: 20px;
+  border-top-style: solid;
+  border-top-width: 9px;
+  border-top-color: teal;
+  text-align: center;
+  background-color: #666;
+
+}
